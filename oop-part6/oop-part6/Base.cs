@@ -8,11 +8,12 @@ namespace oop_part6
 {
     class Base:Main
     {
-        public int Id { get; set; }
+        public override int Id { get; set; }
         protected string Name { get; set; }
 
         public Base()
         {
+            Console.WriteLine("baseeeeeeeeee");
            
         }
         public Base(int _id)
@@ -25,7 +26,10 @@ namespace oop_part6
             Name = _name;
             Console.WriteLine(Id+" "+Name);
         }
-
+        public override void DoSomething()
+        {
+            Console.WriteLine("Implemented abstract method");
+        }
        
     }
 }

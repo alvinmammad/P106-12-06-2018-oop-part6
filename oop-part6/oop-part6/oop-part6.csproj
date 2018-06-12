@@ -42,6 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Academy\Academy.cs" />
+    <Compile Include="Academy\Mentor.cs" />
+    <Compile Include="Academy\MentorTeacher.cs" />
+    <Compile Include="Academy\ProgrammingTeacher.cs" />
+    <Compile Include="Academy\Teacher.cs" />
     <Compile Include="Base.cs" />
     <Compile Include="Derived.cs" />
     <Compile Include="Final.cs" />

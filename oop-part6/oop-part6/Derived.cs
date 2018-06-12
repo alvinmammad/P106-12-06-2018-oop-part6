@@ -8,9 +8,11 @@ namespace oop_part6
 {
     class Derived:Intermediate
     {
+        public string SomeFeature = "Something";
         public Derived()
-            :base()
+            : base()
         {
+            Console.WriteLine(base.SomeFeature);
            
         }
         public Derived(int _id)
@@ -33,6 +35,12 @@ namespace oop_part6
         {
             Console.WriteLine(_message);
         }
+
+        public void Some()
+        {
+            Console.WriteLine("hello");
+        }
+
 
     }
 }

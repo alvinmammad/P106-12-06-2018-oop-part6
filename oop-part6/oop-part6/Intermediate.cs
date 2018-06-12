@@ -8,9 +8,11 @@ namespace oop_part6
 {
     class Intermediate:Base
     {
+        public dynamic SomeFeature=4;
         public Intermediate()
             : base()
         {
+            Console.WriteLine("sadsacscwec");
          
         }
         public Intermediate(int _id)
@@ -22,11 +24,30 @@ namespace oop_part6
         public  void DoSome()
         {
             Console.WriteLine("Base method without parametr");
+          
+            var b=5;
         }
 
-        public void DoSome(int _id)
+        public int DoSome(int _id)
         {
-            Console.WriteLine("Base method");
+            return _id;
         }
+
+        public int SomeMethod()
+        {
+            return 5;
+        }
+
+        public int SomeMethod(int _id)
+        {
+            return _id;
+        }
+
+        public  void Some()
+        {
+
+        }
+
+       
     }
 }

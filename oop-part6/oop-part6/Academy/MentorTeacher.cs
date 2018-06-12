@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace oop_part6
+namespace oop_part6.Academy
 {
-    abstract class Main
+    class MentorTeacher:Academy,IMentor,ITeacher
     {
-        public abstract void DoSomething();
-        public abstract int Id { get; set; }
-
     }
 }
